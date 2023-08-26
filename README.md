@@ -1,1 +1,1 @@
-![](https://github.com/simenoff/isBalancedBrackets/blob/main/screenshot.png)
+![](https://github.com/simenoff/isBalancedBrackets/blob/main/screenshot2.png)
