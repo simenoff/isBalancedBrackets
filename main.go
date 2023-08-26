@@ -56,7 +56,7 @@ func isBalanced(str string) bool {
 			fmt.Print(strings.Repeat("\t", x))
 			fmt.Println(string(chr))
 
-			if !checkTopBracket(brackets[chr], x, y, screen) { // Проверяем, есть ли над данной закрывющей скобкой парная открывающая
+			if !checkTopBracket(brackets[chr], x, y, screen) { // Проверяем, есть ли над данной закрывающей скобкой парная открывающая
 				return false
 			}
 
