@@ -73,7 +73,7 @@ func isBalanced(str string) bool {
 
 }
 
-func checkTopBracket(str rune, x int, y int, screen [][]rune) bool {
+func checkTopBracket(chr rune, x int, y int, screen [][]rune) bool {
 
 	for i := y; i >= 0; i-- { // Двигаемся по столбцу вверх от закрывающей скобки
 
@@ -81,7 +81,7 @@ func checkTopBracket(str rune, x int, y int, screen [][]rune) bool {
 			continue
 		}
 
-		if screen[x][i] == str { // Проверяем, является ли скобка парной
+		if screen[x][i] == chr { // Проверяем, является ли скобка парной
 			return true
 		} else {
 			return false
